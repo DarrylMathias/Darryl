@@ -1,0 +1,60 @@
+*{
+    margin-left: 5px;
+}
+img{
+    float:left;
+    padding-right: 50px;
+}
+p, li{
+    font-size: 18px;
+}
+.main{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#ed{
+    color: blue;
+}
+#ed:hover{
+    color:palevioletred;
+}
+#hob{
+    color: green;
+}
+#hob:hover{
+    color: orange;
+}
+#skill{
+    color: orange;
+}
+#skill:hover{
+    color: green;
+}
+#ach:hover{
+    color:blue;
+}
+#ach{
+    color:palevioletred;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer img,svg{
+    padding: 0 10px 30px;
+    margin: 0;
+}
+@media screen and (max-width:800px){
+    .main{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:463px){
+    .up{
+        display: grid;
+        grid-template-rows: 1fr 0.3fr 0.3fr;
+    }
+}
